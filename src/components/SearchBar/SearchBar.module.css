@@ -1,0 +1,34 @@
+.searchBar {
+    outline: 0;
+    border: 0;
+    width: 400px;
+    height: 45px;
+    background-color: #ffffff16;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    color: #FFF;
+    padding-left: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.searchBar::placeholder {
+    color: #ffffffa2;
+}
+
+.searchBar:focus {
+    box-shadow: 0 11px 30px #00000032;
+    transform: translateY(-3px);
+    -webkit-transform: translateY(-3px);
+    -moz-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    -o-transform: translateY(-3px);
+}

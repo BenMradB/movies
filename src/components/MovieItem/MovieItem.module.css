@@ -1,0 +1,47 @@
+.movieItem {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    min-height: 80px;
+    padding: 0 15px;
+    border-radius: 6px;
+    gap: 25px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    transition: all 0.6s ease;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.movieItem:hover {
+    background-color: #343a40;
+}
+
+.movieItem img {
+    width: 40px;
+    height: 85%;
+}
+
+.movieItem :global(.info) {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 9px !important;
+}
+
+.movieItem div div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

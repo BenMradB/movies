@@ -1,0 +1,39 @@
+.details {
+    width: 100%;
+    height: calc(100% - 300px);
+    padding: 15px;
+    margin-top: 8px;
+    background-color: #343a40;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+
+}
+
+.details div {
+    line-height: 1.2;
+}
+
+.details div p {
+    font-size: 13px;
+}
+
+.watched {
+    min-height: 50px;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #343a40;
+    border-radius: 6px;
+    margin-top: 8px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    text-align: center;
+}
